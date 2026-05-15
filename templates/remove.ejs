@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Remove All Books</title>
+</head>
+<body>
+    <h1>Remove All Saved Books</h1>
+    <form action="/journal/processRemove" method="post">
+        <input type="submit" value="Remove All Books">
+    </form>
+    <hr>
+    <a href="/">HOME</a>
+    <script>
+        window.onsubmit = () => {
+            return confirm("Are you sure you want to remove all saved books?");
+        }
+    </script>
+</body>
+</html>
