@@ -11,7 +11,8 @@ const bodyParser = require("body-parser");
 const bookRoutes = require("./routes/books");
 const journalRoutes = require("./routes/journal");
 
-const portNumber = process.argv[2];
+const portNumber = process.env.PORT || process.argv[2];
+
 
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/templates");
