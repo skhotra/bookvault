@@ -10,6 +10,6 @@
 
 **Contact Email:** skhotra@terpmail.umd.edu
 
-**Deployed App Link:** [hhttps://bookvault-7xok.onrender.com/]
+**Deployed App Link:** [https://bookvault-7xok.onrender.com/]
 
 **AI Use:** 1. Claude (claude.ai)
